@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+
+.body{
+    background: url("./background.png");
+    background-size: auto;
+    height: 100%;
+
+}
+.bomberlogo{
+    position: absolute;
+     width: 545px;
+     height: 162px;
+     left: 25px;
+     top: 40px;
+
+}
+.text{
+    position: absolute;
+    width: 789px;
+    height: 150px;
+    left: 56px;
+    top: 311px;
+    
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #cc7474;
+}
+.text1{
+    position: absolute;
+    width: 182px;
+    height: 41px;
+    left: 488px;
+    top: 188.46px;
+    
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-11.24deg);
+    -webkit-text-stroke: 1px #c74e4e;
+
+}
+.text2{
+    position: absolute;
+width: 287px;
+height: 61px;
+left: 769.75px;
+top: 459px;
+
+font-family: 'IM Fell English', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 66px;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+transform: rotate(19.88deg);
+-webkit-text-stroke: 1px #FF0000;
+}
+.bomberman23{
+    position: absolute;
+    width: 193.39px;
+    height: 214.52px;
+    left: 1191.86px;
+    top: 132px;
+    
+
+}
+.butao{
+    position: absolute;
+    width: 461px;
+    height: 113px;
+    left: 90px;
+    top: 830px;
+    background: #0C0B3E;
+    border-radius: 90px;    
+    position: absolute;    
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    
+    color: #FFFFFF;
+    
+    -webkit-text-stroke: 1px #FF0000;
+}
+.textsbox{
+    position: absolute;
+    width: 421px;
+    height: 292px;
+    justify-content: space-around;
+    left: 113px;
+    top: 510px;
+    display: flex;
+    flex-direction: column;    
+
+}
+.textbox, .textbox2, .textbox3{
+   font-size: 25px;
+ 
+left: 0%;
+right: 0%;
+top: 38.01%;
+bottom: 38.36%;
+padding: 22px;
+background: #D9D9D9;
+border-radius: 31px;
+
+}
+.textbox::placeholder, .textbox2::placeholder, .textbox3::placeholder{
+    color: black;
+    font-family: 'IM Fell English', serif;
+
+}
+.bornber{
+    position: absolute;
+width: 582px;
+height: 311px;
+left: 1116px;
+top: 551px;
+z-index: 1;
+animation: floated 3s infinite alternate ease-in-out;
+}
+.explosion{
+    position: absolute;
+    width: 582px;
+    height: 411px;
+    left: 1116px;
+    top: 558px;
+    animation:  0.12s infinite alternate ease-in-out;
+    }
+.bomb{
+    position: absolute;
+    width: 202px;
+    height: 192px;
+    left: 1459px;
+    top: 430px;
+    z-index: 1;
+    animation: floatedBomb 3s infinite alternate ease-in-out;
+}
+
+    @keyframes floated {
+
+        0%{
+            transform: translate(0,40px);
+        }
+        100%{
+            transform:  translate(0,-40px);
+        }
+        
+    }
+
+    @keyframes floatedBomb {
+
+        0%{
+            transform: translate(0,120px);
+        }
+        100%{
+            transform:  translate(0,-120px);
+        }
+        
+    }
